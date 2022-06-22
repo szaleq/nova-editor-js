@@ -131,7 +131,7 @@ return [
         ],
         'alignment' => [
             'activated' => true,
-            'default' => 'center',
+            'default' => 'left',
         ],
     ],
 
@@ -274,7 +274,10 @@ return [
                             ]
                         ]
                     ]
-                ]
+                ],
+                'withHeadings' => [
+                    'type' => 'boolean',
+                ],
             ],
             'raw' => [
                 'html' => [
