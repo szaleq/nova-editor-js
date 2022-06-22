@@ -1,35 +1,19 @@
 /*!
- * Determine if an object is a Buffer
+ * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */
 
+/*!
+ * vuex v4.0.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
 /*! For license information please see editor.js.LICENSE.txt */
 
-/*!*********************!*\
-  !*** ./src/util.js ***!
-  \*********************/
-
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-
-/*!***********************!*\
-  !*** ./src/index.css ***!
-  \***********************/
-
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-
-/*!*************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
-  \*************************************************************/
-
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /**
  * @license
