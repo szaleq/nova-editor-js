@@ -1,16 +1,18 @@
 # Laravel Nova Editor JS Field
 
-[![Latest Version on Github](https://img.shields.io/github/release/advoor/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/advoor/nova-editor-js)
-[![Total Downloads](https://img.shields.io/packagist/dt/advoor/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/advoor/nova-editor-js)
+[![Latest Version on Github](https://img.shields.io/github/release/szaleq/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/szaleq/nova-editor-js)
+[![Total Downloads](https://img.shields.io/packagist/dt/szaleq/nova-editor-js.svg?style=flat-square)](https://packagist.org/packages/szaleq/nova-editor-js)
 
-A Laravel Nova implementation of [Editor.js](https://github.com/codex-team/editor.js) by [@advoor](https://github.com/advoor).
+A Laravel Nova 4 field for [Editor.js](https://github.com/codex-team/editor.js).
+
+Based on package by [@advoor](https://github.com/advoor).
 
 ## Installation
 
 Install via composer:
 
 ```
-composer require taylanunutmaz/nova-editor-js
+composer require szaleq/nova-editor-js
 ```
 
 Publish the config file
@@ -18,12 +20,9 @@ Publish the config file
 php artisan vendor:publish --provider="Advoor\NovaEditorJs\FieldServiceProvider"
 ```
 
-## Upgrade
-If upgrading from v0.4.0, re-publish the config file!
-
 ## Usage:
 
-Add this `use` statement to the top of the your nova resource file:
+Add this `use` statement to the top of your nova resource file:
 
 ```php
 use Advoor\NovaEditorJs\NovaEditorJs;
