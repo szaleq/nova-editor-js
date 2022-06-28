@@ -1,0 +1,8 @@
+.github export-ignore
+.yarn export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.pnp.cjs export-ignore
+.pnp.loader.json export-ignore
+.yarnrc.yml export-ignore
+.yarn.lock export-ignore
